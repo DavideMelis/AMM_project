@@ -1,16 +1,49 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Login</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Davide Melis">
+        <meta name="keywords" content="social network friends nerd nerdbook login">
     </head>
+
     <body>
-        <div>TODO write content</div>
+    <header>
+        <div>
+            <h1>
+                Benvenuto nella sezione di Login di Nerdbook! 
+            </h1>
+            <h2>
+                Qui puoi immettere le tue credenziali per poter accedere al nostro sito!
+            </h2>
+            <hr/>
+        </div>
+    </header>
+        <form action="demo.asp" method="get">
+            <label for="username">Inserisci nome utente</label>
+            <input type="text" name="username"
+                   id ="username" value="" />
+            <br/>
+            <label for="password">Inserisci password</label>
+            <input type="password" name="password"
+                   id ="password" value="" />
+            <br/>
+            
+        </form>
+        <div>
+            <h3>
+                Hai sbagliato sezione? Nessun problema! <br/>Qui sotto puoi trovare le altre sezioni principali del nostro sito!
+            </h3>
+        </div>
+        <hr/>
+    <nav>
+        <ol>
+            <li><a href="Descrizione.html">Descrizione</a></li>
+            <li><a href="Bacheca.html">Bacheca</a></li>
+            <li><a href="Profilo.html">Profilo</a></li>
+        </ol>
+    </nav>
     </body>
 </html>
