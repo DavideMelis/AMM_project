@@ -1,16 +1,51 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Profilo</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Davide Melis">
+        <meta name="keywords" content="social network friends nerd nerdbook profilo">
     </head>
     <body>
-        <div>TODO write content</div>
+        <header>
+            <h1>
+                Benvenuto nella sezione Profilo!
+            </h1>
+            <hr/>
+            <h3>
+                Qui puoi inserire i tuoi dati utente per iscriverti al nostro sito.
+            </h3>
+        </header>
+        <div class="input-form">
+            <form method="post">
+                <label for="Nome">Nome</label><br/>
+                <input name="Nome" id="Nome" type="text"/><br/>
+                <label for="Cognome">Cognome</label><br/>
+                <input name="Cognome" id="Cognome" type="text"/><br/>
+                <label for="URL">Url immagine profilo</label><br/>
+                <input name="URL" id="URL" type="text"/><br/>
+                <label for="Frase">Frase di presentazione</label><br/>
+                <input name="Frase" id="Frase" type="text"/><br/>
+                <label for="Data">Data di nascita</label><br/>
+                <input name="Data" id="Data" type="date"/><br/>
+                <label for="Password">Password</label><br/>
+                <input name="Password" id="Password" type="password"/><br/>
+                <label for="CPassword">Conferma Password</label><br/>
+                <input name="CPassword" id="CPassword" type="password"/><br/>
+                <input type="submit" value="Iscriviti"/>
+            </form>
+        </div>
+        <hr/>
+        <div>
+            Continua la navigazione nel nostro sito:
+        </div>
+        <nav>
+        <ol>
+            <li><a href="Descrizione.html">Descrizione</a></li>
+            <li><a href="Login.html">Login</a></li>
+        </ol>
+        </nav>
     </body>
 </html>
