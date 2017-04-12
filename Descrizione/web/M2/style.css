@@ -1,0 +1,206 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-mar-2017, 9.42.15
+    Author     : Kronox
+*/
+body{
+    background-color: #808080;
+    font: 17px/25px "Open Sans", Arial, sans-serif;
+    border-left-width: 0px;
+    border-left-style: solid;
+    border-right-width: 0px;
+    border-right-style: solid;
+    margin-right: 0px;
+    margin-left: 2px;
+}
+h1{
+    margin-top: 5px;
+    color: #ffffff;
+    font: 35px/40px "Open Sans", Arial, sans-serif;
+    font-weight: bold;
+    padding-left: 5px;
+    position: absolute;
+    margin-bottom: 0px;
+}
+a:link{
+    font-size: 20px;
+    text-decoration: none;
+    color: #111111;
+}
+
+a:visited{
+    font-size: 20px;
+    text-decoration: none;
+    color: #111111;
+}
+
+a:hover{
+    font-weight: bold;
+}
+header{
+    font: 35px/50px "Open Sans MS", Arial, sans-serif;
+    background-color: #4d4d4d;
+    text-align: left;
+    margin-bottom: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    border: 2px solid #111111;
+    border-top-width: 0px;
+    border-top-style: solid;
+    
+    
+}
+#divBody, nav{
+    width: 20%;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+#choose{
+    margin-top: 55px;
+    list-style-type: none;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    
+}
+
+#choosex{
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style-type: none;
+    display: inline-block;  
+    border-right: 2px solid #111111;
+    border-left: 2px solid #111111;
+}
+
+#choose ol{
+    padding-left: 0px;
+}
+
+form button{
+    width: 100%;
+    margin-top: 5px;
+}
+#iscrizione{
+    padding: 20px;
+    font: 20px/25px "Open Sans", Arial, sans-serif;
+}
+
+#chooseL{
+    list-style-type: none;
+    background: #4d4d4d;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 69.7%;
+    float: right;
+    border: 2px solid #111111;
+    border-top-width: 0px;
+    border-top-style: solid;
+    margin-bottom: 0px;
+}
+
+#chooseL ol{
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 55px;
+}
+
+#chooseL li{
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style-type: none;
+    display: inline-block;
+    border-right: 2px solid #111111;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    margin-top: 0px;
+    border-top-width: 0px;
+    border-top-style: solid;
+    height: 50px;
+}
+#iscrizione strong::after{
+    content: '\A';
+    white-space: pre;
+}
+
+#immage h2{
+    text-align: center;
+    padding-right: 508px;
+}
+
+form input{
+    float: right;
+    width: 58%;
+}
+
+form textarea{
+    float: right;
+    width: 58%;
+}
+
+#sidebar{
+    float: left;
+    width: 30%;
+    border: 2px solid #111111;
+    margin-top: 0px;
+    margin-left: -4px;
+    border-right-width: 0px;
+    border-right-style: solid;
+}
+
+#text {
+    margin-top: -12px;
+}
+
+#divBodyP{
+    width: 70%;
+    margin-left: auto;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border: 2px solid #111111;
+    margin-top: 50px;
+}
+
+#immage img{
+    float: left;
+    padding-left: 464px;
+    padding-bottom: 0px;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    margin-bottom: 0px;
+    margin-top: -10px;
+}
+
+#divBodyLogin{
+    width: 32%;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-left: auto;
+    margin-right: auto;
+}
+#divBodyDescr{
+    width: 32%;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-left: auto;
+    margin-right: auto;
+}
+#immage{
+    margin-top: 73px;
+    background-image: url('C: /Users/Kronox/Documents/NetBeansProjects/AMM_project/Descrizione/web/M2/Nerdbook.jpg')
+}
